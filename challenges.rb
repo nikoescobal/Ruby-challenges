@@ -44,11 +44,11 @@
 # 16. Instantiate an array with 20 number values (both integer and float). Use a while loop to filter even and odd numbers into their own respective arrays. Display the output in the following format
 
 #   Even         Odd
-# =====    =====
-#      a               b
-#      c               d      
-#      e               f 
-#      g               h
+#   =====       =====
+#     a           b
+#     c           d      
+#     e           f 
+#     g           h
 
 # Write this program with a while loop first, then write it with blocks
 
@@ -58,11 +58,11 @@
 # 17. Instantiate an array with 20 number values (both integer and float). Use a while loop to filter even and odd numbers into their own respective arrays. Display the output in the following format
 
 #   Even         Odd
-# =====    =====
-#      a               b
-#      c               d      
-#      e               f 
-#      g               h
+#   =====       =====
+#     a           b
+#     c           d      
+#     e           f 
+#     g           h
 
 # Write this program with a while loop first, then write it with blocks
 
