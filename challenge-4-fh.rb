@@ -11,4 +11,4 @@ gross_pay = 2000 + (0.15 * total_sales)
 deductions = (0.2 * total_sales) - 500
 nett_pay = gross_pay - deductions
 
-puts "Your gross pay for the month is $%0.2f USD, and your nett pay is $%0.2f USD" % [gross_pay, nett_pay]
+puts "Your gross pay for the month is $%0.2f USD, and your nett pay is $%0.2f USD." % [gross_pay, nett_pay]
