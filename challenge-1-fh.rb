@@ -15,4 +15,4 @@ input_5 = gets.chomp.to_f
 
 sum = (input_1 + input_2 + input_3 + input_4 + input_5)
 average = (sum/5)
-puts "The average is %0.2f." % [average]
+puts "The average is %0.2f, and the sum is %0.3f." % [average, sum]

@@ -1,16 +1,14 @@
 # 5. Develop a currency converter. The program should take two inputs: The exchange rate for the amount of your local currency per US Dollar and an amount of US Dollar. The output should be properly formatted with the correct currency units and display the equivalent amount of your local currency.
 
-  puts "enter local currency amount per US Dollar: "
-  local_rate = gets.chomp.to_f
-  puts "enter dollar amount: "
-  dollar_rate = gets.chomp.to_f
-  
-  conversion = (local_rate / dollar_rate).to_f
 
-  puts "#{conversion} is the equivalent value of #{dollar_rate} USD to #{local_rate} pesos."
+def usd_to_peso(value)
+  usd = 48.07 * value
+end
 
-#   def currency_converter(local_rate, dollar_rate)
-#     local_rate + dollar_rate
-#   end
+puts "enter dollar amount: "
+dollar_amount = gets.chomp.to_f
 
-# puts currency_converter(10,3)
+puts "#{usd_to_peso(dollar_amount)} is the equivalent amount of pesos to dollars."
+
+
+
