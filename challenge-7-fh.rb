@@ -3,4 +3,4 @@
 puts "enter angle in degrees: "
 value = gets.chomp.to_f
 
-puts "%0.2f is the value of sin(#{value}), %0.2f is the value of cos(#{value}), and %0.2f is the value of tan(#{value})." % [Math.sin(value), Math.cos(value), Math.tan(value)]
+puts "#{'%0.2f'% Math.sin(value)} is the value of sin(#{value}), %0.2f is the value of cos(#{value}), and %0.2f is the value of tan(#{value})." % [Math.cos(value), Math.tan(value)]

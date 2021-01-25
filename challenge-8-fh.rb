@@ -2,12 +2,13 @@
 
 puts "enter student's grade: "
 grade = gets.chomp.to_f
-if grade < 0 || grade > 100
+while grade < 0 || grade > 100
   puts "This student's grade has not been entered correctly."
- elsif grade >= 60
-   puts "This student passed."
- elsif grade >= 50 && grade < 60
-   puts "This student needs to retake the exam."
- elsif grade < 50
-   puts "This student has failed."
- end
+  if grade >= 60
+    puts "This student passed."
+  elsif grade >= 50 && grade < 60
+    puts "This student needs to retake the exam."
+  elsif grade < 50
+    puts "This student has failed."
+  end
+end
