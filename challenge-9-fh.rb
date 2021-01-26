@@ -10,8 +10,5 @@ elsif color == "yellow"
 elsif color == "red"
   puts "Stop, bro"
 else
-  puts "Wtf?! What are you doinng?"
+  puts "Wtf?! What are you doing?"
 end
-
-
-
