@@ -26,6 +26,6 @@ end
 
 average = sum.to_f / array.length 
 
-puts "#{smallest} is the smallest number, #{largest} is the largest number. #{sum} is the sum, #{average} is the average."
+puts "#{smallest} is the smallest number, #{largest} is the largest number. #{sum} is the sum, and #{average} is the average."
 
 

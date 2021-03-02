@@ -89,5 +89,31 @@
 
 # 27. # Do 26 with both loops.
 
+# 28. Develop a program that will allow the user to enter a sentence and then count the number of words in the sentence as well as the number of characters in the longest word. Punctuation marks shouldn't be counted as part of a word. First do it without the split method, and then with the split method."
 
+#29. Pig Latin is a language game of alterations played in English. For every word, the initial consonant or consonant cluster is transposed to the end of the word and an "ay" is added. Words that begin with vowel sounds are formed by adding "ay" to the end.
+# Examples: trash -> ashtray, plunder -> underplay, under -> underay, beast -> eastbay, dough-> oughday, happy -> appyhay
+# Develop an application that will take a string as input and transform all words to Pig Latin."
+
+#30. The South African ID number of 13 digits can be analysed as follows:
+# YYMMDD G SSS C A Z
+# YY: Year of birth 
+# MM: Month of birth 
+# DD: Day of birth 
+# G: Gender. 0-4 Female, 5-9 Male 
+# SSS: Sequence number. The SSS'th birth of the specific gender on the specific day 
+# C: Citizenship. O=SA, 1=Other 
+# A: Usually 8 or 9 
+# Z: Control digit 
+
+# The control digit can be derived from the rest of the ID number as follows, using 6007315103084 as example: 
+# - Add all digits in the odd positions, excluding last digit: 6 + 0 + 3 + 5 + 0 + 0 = 14 {1}
+# - Use the digits in the even positions to form a number: 071138 {2}
+# - Multiply the number in {2} with 2: 142276 {3}
+# - Add all the digits in {3}: 1 + 4 + 2 + 2 + 7 + 6 = 22 {4}
+# - Add the numbers in {1} and {4}: 14 + 22 = 36 {5}
+# - Subtract the second digit of {5} from 10:10 - 6 = 4. If the answer is 10, change to 0 {6}
+# The number in {6}, 4, is the control digit.
+
+# Develop a console application that will allow the user to enter an ID number. Display a summary that will display the date of birth, gender and citizenship of the person. Also check if the ID number is valid by performing the process above to determine what the control digit should be. If the last digit in the ID is equal to this, the ID number is valid, else it is invalid.
 
